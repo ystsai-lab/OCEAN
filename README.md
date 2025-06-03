@@ -8,7 +8,7 @@ OCEAN is designed for few-shot coral classification environments.
 ## Approach
 Our method uses self-supervised learning during training to enhance the model's ability to relate global and local information via a contrastive learning pretext task. 
 Additionally, the evaluation phase of OCEAN now better leverages local image features, enabling it to fully exploit the repetitive structures typical of corals.
-![Fig_OCEAN](https://github.com/user-attachments/assets/ee249547-4e8d-413c-8b26-4e5d7f92a118)
+![Fig_OCEAN](Fig_OCEAN.jpg)
 
 
 OCEAN effectively combines few-shot learning, self-supervised learning, and dual-metric loss functions to achieve superior performance in coral classification tasks.
@@ -44,7 +44,7 @@ The [tieredImageNet](https://paperswithcode.com/dataset/tieredimagenet) dataset 
 
 #### Coral Dataset of This Study.
 For the final testing stage, the test dataset is a coral dataset compiled for this study. This coral dataset contains 10 types of corals, with a total of 1,224 coral samples. [Download Link](https://drive.google.com/file/d/19m0PyqhWPLPRX6YX1d38CkJbwKemqGMQ/view?usp=sharing)
-![coral_img1](https://github.com/user-attachments/assets/35264aa7-8d56-4d1b-bfa6-1a158dc28cbe)
+![coral_img1](Fig_OCEAN.jpg)
 
 
 #### checkpoints download
