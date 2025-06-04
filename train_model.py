@@ -6,7 +6,7 @@ from model.resNet import ResNet18
 backbone = ResNet18(pretrained=False)
 
 if __name__ == '__main__':
-    train_task = OceanTrainer(backbone=backbone)
+    #train_task = OceanTrainer(backbone=backbone)
     # train_task.run()
 
     # train_task = ProtoNetTrainer()
