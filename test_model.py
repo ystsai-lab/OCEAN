@@ -4,7 +4,7 @@ from model.customNet import protoNet_ResNet18_
 import eval_ocean_voting
 from utils.draw import draw_confusion_matrix
 
-# experiment_root = 'output/ocean_0807-1631'
+# experiment_root = 'output/ocean_0807-1631' #'/home/lab705/code/Few-shot/output/OCEAN'
 
 # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 # backbone = protoNet_ResNet18_().to(device)
@@ -23,8 +23,7 @@ from utils.draw import draw_confusion_matrix
 
 
 
-experiment_root = 'output/ocean_0505-1616' #'/home/lab705/code/Few-shot/output/protoNet'
-
+experiment_root = '/output/ocean_...'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 backbone = protoNet_ResNet18_().to(device)
 backbone.load_state_dict(torch.load(os.path.join(experiment_root, 'best_model.pth')))
