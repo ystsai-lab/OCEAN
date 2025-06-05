@@ -78,4 +78,4 @@ python test_model.py
 ```
 
 ## Citation
-A Self-Supervised Hybrid Similarity Framework for Underwater Coral Species Classification. Computers, Materials & Continua, Tech Science Press
+
