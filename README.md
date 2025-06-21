@@ -78,4 +78,5 @@ python test_model.py
 ```
 
 ## Citation
-
+Yu-Shiuan Tsai, Zhen-Rong Wu, Jian-Zhi Liu (2025). A Self-Supervised Hybrid Similarity Framework for Underwater Coral Species Classification. CMC-Computers Materials & Continua.
+https://doi.org/10.32604/cmc.2025.066509.
